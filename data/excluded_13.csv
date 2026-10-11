@@ -1,0 +1,14 @@
+item_id,review_pool,category_key,reason
+1:1-12175755-1:What theme placed as #3 in the finale?,"GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks for the theme; SQL selects Result
+2:2-10660351-3:What team had less than 159 laps and a time or retired time of 4:00:30.7537 (retired - fire)?,"GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks for the team; SQL selects Name (Team column exists)
+"2:2-11206685-2:In guangzhou, who won the game with a score of 1-0?","GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks who won; Result holds a score (4-1)
+"2:2-11206685-2:On 2006-03-13 in the algarve cup, who won?","GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks who won; Result holds a score (4-1)
+2:2-11233358-6:What day was the score 3-0 after 2011?,"GPT-4o gold-only failures, blinded to predictions",B,[B] Question says after 2011; SQL condition is Year = 2011 and gold row is 2011
+"2:2-11384351-1:Which driver has a # smaller than 40, less than 151 points, and Winnings of $84,400?","GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks for the driver; SQL selects Make
+2:2-1195142-4:Which production won the drama desk award as well as the category of outstanding sound design?,"GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks which production; SQL selects Result (Nominated)
+2:2-12015554-6:What is the save when Yankees are the opponents on July 25?,"GPT-4o gold-only failures, blinded to predictions",C,"[C] Gold Save cell is corrupted (||34,873||60–42 mixes attendance and record)"
+"2:2-12188532-6:Which team has an overall playoff of (0-0), a home record of (0-1) and played the Green Bay Blizzard team?","GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks which team; SQL selects OVERALL record
+2:2-12742744-1:Who has a transfer fee larger than 12 from ajax in 2006 while ranked higher than 17?,"GPT-4o gold-only failures, blinded to predictions",B,[B] Question says in 2006; SQL condition is Year > 2006 and gold row is 2013
+2:2-1431459-5:Which republican was first elected in 1886 in the district of ohio 17?,"GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks which republican (Incumbent); SQL selects Result
+2:2-1431459-5:Who was first elected as the result of a retired republican gain in the district of ohio 21?,"GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks who was elected (Incumbent); SQL selects First elected
+2:2-151387-2:What was the score for an n/a location with the odds of p + 1?,"GPT-4o gold-only failures, blinded to predictions",A,[A] Question asks for the score; SQL selects Result (Score column exists)

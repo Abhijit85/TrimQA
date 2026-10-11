@@ -1,0 +1,7 @@
+This supplementary package contains derived experiment artifacts and code for
+review. The WikiSQL dataset is not redistributed here; obtain it from the
+original Salesforce WikiSQL release. WikiSQL is released under the BSD 3-Clause
+License by Salesforce Research.
+
+The included experiment scripts are provided for reproducibility of the saved
+statistics and are released under the MIT License for this anonymized supplement.
